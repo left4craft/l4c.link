@@ -26,7 +26,7 @@ module.exports.handler = async req => {
 					statusCode: 500
 				};
 			} else {
-				if (!data.length === 0) long_url = config.home; // redirect to home page
+				if (data.length === 0) long_url = config.home; // redirect to home page
 				else long_url = data[0].long_url;
 			}
 		}
