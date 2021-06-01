@@ -9,7 +9,7 @@ A very simple serverless URL shortener built with Supabase and Netlify.
 Install netlify-cli:
 
 ```bash
-npm i netlify-cli -gg
+npm i netlify-cli -g
 ```
 
 Create `.env`:
