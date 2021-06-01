@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/473f64be-abbe-4c0d-a7f3-895885ada035/deploy-status)](https://app.netlify.com/sites/l4c/deploys)
 
-A very simple serverless URL shortener built with Supabase and Netlify.
+A very simple serverless URL shortener built with Supabase and Netlify, so simple that it doesn't have a UI at all.
 
 ## Development
 
