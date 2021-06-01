@@ -15,6 +15,6 @@
   force = false
 
 [template.environment]
-  KEY = "(PASSWORD)"
-  SUPABASE_URL = "(THE URL)"
-  SUPABASE_KEY = "(THE SERVICE KEY)"
+  KEY = "Password for creating new URLs"
+  SUPABASE_URL = "Supabase URL"
+  SUPABASE_KEY = "Supabase service key"
