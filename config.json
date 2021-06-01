@@ -3,7 +3,5 @@
 	"home": "https://www.left4craft.org",
 	"mode": 302,
 	"random_length": 8,
-	"reserved": [
-		"status"
-	]
+	"reserved": []
 }

@@ -3,12 +3,10 @@ const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY
 
 module.exports.handler = async () => {
 	try {
-		const {
-			data,
-			error
-		} = await supabase
+		const { error } = await supabase
 			.from('urls')
-			.select();
+			.select()
+			.limit(1);
 
 		if (error) {
 			console.log(error);
@@ -19,8 +17,7 @@ module.exports.handler = async () => {
 		}
 
 		return {
-			body: JSON.stringify(data),
-			headers: { 'Content-Type': 'application/json' },
+			body: '200 OK',
 			statusCode: 200
 		};
 	} catch (error) {
