@@ -1,6 +1,3 @@
-[build]
-  publish = "public/"
-
 [functions]
   directory = "functions/"
   included_files = ["config.json"]
@@ -18,5 +15,6 @@
   force = false
 
 [template.environment]
+  KEY = "(PASSWORD)"
   SUPABASE_URL = "(THE URL)"
   SUPABASE_KEY = "(THE SERVICE KEY)"
