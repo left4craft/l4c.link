@@ -1,0 +1,8 @@
+{
+	"base": "https://l4c.link",
+	"home": "https://www.left4craft.org",
+	"random_length": 8,
+	"reserved": [
+		"about"
+	]
+}

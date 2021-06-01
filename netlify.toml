@@ -1,0 +1,22 @@
+[build]
+  publish = "public/"
+
+[functions]
+  directory = "functions/"
+  included_files = ["config.json"]
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200 # rewrite instead of redirect
+  force = false
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/redirect/:splat"
+  status = 200 # rewrite instead of redirect
+  force = false
+
+[template.environment]
+  SUPABASE_URL = "(THE URL)"
+  SUPABASE_KEY = "(THE SERVICE KEY)"
