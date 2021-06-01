@@ -45,7 +45,7 @@ module.exports.handler = async req => {
 		}
 
 		if (!id) {
-			id = random();
+			id = random(); // generate a random ID and hope it doesn't already exist :)
 		} else {
 			id = id
 				.replace(/\s/g, '-') // replace spaces with dashes
