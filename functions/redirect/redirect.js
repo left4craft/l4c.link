@@ -37,7 +37,7 @@ module.exports.handler = async req => {
 				'Cache-Control': 'no-cache',
 				Location: long_url
 			},
-			statusCode: 301
+			statusCode: config.mode
 		};
 	} catch (error) {
 		return {
