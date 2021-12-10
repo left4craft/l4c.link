@@ -1,3 +1,6 @@
+> # ⚠️Archived
+> Superseded by [left4craft/url-shortener](https://github.com/left4craft/url-shortener)
+
 # l4c.link
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/473f64be-abbe-4c0d-a7f3-895885ada035/deploy-status)](https://app.netlify.com/sites/l4c/deploys)
