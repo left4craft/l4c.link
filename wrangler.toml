@@ -1,0 +1,10 @@
+name = "l4c-link"
+main = "src/index.js"
+compatibility_date = "2023-03-29"
+
+kv_namespaces = [ 
+  { binding = "LINKS", id = "bb855fcd45174afc8cf2415d92450b95", preview_id="bb855fcd45174afc8cf2415d92450b95" }
+]
+
+[vars]
+  HOME = "https://www.left4craft.org"

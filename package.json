@@ -1,9 +1,9 @@
 {
 	"name": "l4c.link",
-	"version": "1.0.0",
-	"description": "Serverless short URLs with Supabase and Netlify.",
+	"version": "2.0.0",
+	"description": "Serverless short URLs with Cloudflare Workers & KV.",
 	"scripts": {
-		"dev": "netlify dev"
+		"dev": "wrangler dev"
 	},
 	"repository": {
 		"type": "git",
@@ -16,9 +16,7 @@
 	},
 	"homepage": "https://github.com/left4craft/l4c.link#readme",
 	"devDependencies": {
-		"eslint": "^7.27.0"
-	},
-	"dependencies": {
-		"@supabase/supabase-js": "^1.12.0"
+		"eslint": "^7.27.0",
+		"wrangler": "2.1.15"
 	}
 }
