@@ -2,6 +2,12 @@ name = "link"
 main = "src/index.js"
 compatibility_date = "2023-03-29"
 
+routes = [
+	{ pattern = "l4c.link", custom_domain = true },
+	{ pattern = "www.l4c.link", custom_domain = true }
+]
+
+
 kv_namespaces = [ 
   { binding = "LINKS", id = "bb855fcd45174afc8cf2415d92450b95", preview_id="bb855fcd45174afc8cf2415d92450b95" }
 ]
